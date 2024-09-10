@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMDb Netflix Clone</title>
+  <link rel="stylesheet" href="netflix_clone/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Netflix Clone</div>
+      <ul>
+        <li>Home</li>
+        <li>TV Shows</li>
+        <li>Movies</li>
+        <li>News & Popular</li>
+        <li>My List</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1 id="banner-title">Featured Movie</h1>
+      <p id="banner-description">Movie description goes here.</p>
+      <button id="play-button">Play</button>
+      <button id="more-info-button">More Info</button>
+    </div>
+  </section>
+
+  <!-- Movie Categories Section -->
+  <section class="movies">
+    <h2>Action</h2>
+    <div class="movie-grid" id="action-movies"></div>
+
+    <h2>Adventure</h2>
+    <div class="movie-grid" id="adventure-movies"></div>
+
+    <h2>Comedy</h2>
+    <div class="movie-grid" id="comedy-movies"></div>
+  </section>
+
+  <script src="netflix_clone/script.js"></script>
+</body>
+</html>
